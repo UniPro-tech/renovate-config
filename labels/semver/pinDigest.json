@@ -2,11 +2,11 @@
   "packageRules": [
     {
       "matchUpdateTypes": [
-        "patch",
-        "pin",
         "pinDigest"
       ],
-      "automerge": true
+      "addLabels": [
+        "type/digest"
+      ]
     }
   ]
 }

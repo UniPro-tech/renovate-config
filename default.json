@@ -5,6 +5,7 @@
     "helpers:pinGitHubActionDigests",
     "github>unipro-tech/renovate-config//auto-patch.json",
     "github>unipro-tech/renovate-config//labels/semver/digest.json",
+    "github>unipro-tech/renovate-config//labels/semver/pinDigest.json",
     "github>unipro-tech/renovate-config//labels/semver/lock.json",
     "github>unipro-tech/renovate-config//labels/semver/major.json",
     "github>unipro-tech/renovate-config//labels/semver/minor.json",
