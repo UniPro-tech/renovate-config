@@ -1,0 +1,12 @@
+{
+  "packageRules": [
+    {
+      "matchManagers": [
+        "kubernetes"
+      ],
+      "addLabels": [
+        "renovate/kubernetes"
+      ]
+    }
+  ]
+}

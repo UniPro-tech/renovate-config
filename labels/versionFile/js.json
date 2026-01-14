@@ -1,0 +1,12 @@
+{
+  "packageRules": [
+    {
+      "matchManagers": [
+        "js"
+      ],
+      "addLabels": [
+        "renovate/javascript"
+      ]
+    }
+  ]
+}
