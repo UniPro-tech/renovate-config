@@ -27,6 +27,6 @@
       "(^|/)Dockerfile-[^/]*$"
     ]
   },
-  "minimumReleaseAge": "3 days",
+  "minimumReleaseAge": "1 day",
   "internalChecksFilter": "strict"
 }
