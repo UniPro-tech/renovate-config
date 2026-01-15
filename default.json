@@ -17,7 +17,8 @@
     "github>unipro-tech/renovate-config//labels/versionFile/gh-actions.json",
     "github>unipro-tech/renovate-config//labels/versionFile/kubernetes.json",
     "github>unipro-tech/renovate-config//groups/js-linter.json",
-    "github>unipro-tech/renovate-config//groups/react.json"
+    "github>unipro-tech/renovate-config//groups/react.json",
+    "github>unipro-tech/renovate-config//groups/pydantic.json"
   ],
   "labels": [
     "kind/dependency-update"
