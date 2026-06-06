@@ -4,7 +4,8 @@
       "matchUpdateTypes": [
         "patch",
         "pin",
-        "pinDigest"
+        "pinDigest",
+        "digest"
       ],
       "automerge": true
     }
