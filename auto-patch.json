@@ -2,6 +2,7 @@
   "packageRules": [
     {
       "matchUpdateTypes": [
+        "minor",
         "patch",
         "pin",
         "pinDigest",
