@@ -30,5 +30,6 @@
     ]
   },
   "minimumReleaseAge": "1 day",
-  "internalChecksFilter": "strict"
+  "internalChecksFilter": "strict",
+  "prCreation": "not-pending"
 }
