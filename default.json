@@ -1,9 +1,18 @@
 {
   "extends": [
     "config:recommended",
-    ":enableVulnerabilityAlertsWithLabel(security)",
+    ":enableVulnerabilityAlertsWithLabel(deps/security)",
+    ":semanticCommitTypeAll(deps)",
+    ":timezone(Asia/Tokyo)",
     "helpers:pinGitHubActionDigests",
-    "github>unipro-tech/renovate-config//auto-patch.json",
+    ":automergeMinor",
+    ":automergeDigest",
+    "group:recommended",
+    "mergeConfidence:all-badges",
+    "monorepo:nextjs",
+    "packages:linters",
+    "packages:react",
+    "schedule:automergeDaily",
     "github>unipro-tech/renovate-config//labels/semver/digest.json",
     "github>unipro-tech/renovate-config//labels/semver/pinDigest.json",
     "github>unipro-tech/renovate-config//labels/semver/lock.json",
@@ -16,19 +25,15 @@
     "github>unipro-tech/renovate-config//labels/versionFile/rust.json",
     "github>unipro-tech/renovate-config//labels/versionFile/gh-actions.json",
     "github>unipro-tech/renovate-config//labels/versionFile/kubernetes.json",
-    "github>unipro-tech/renovate-config//groups/js-linter.json",
-    "github>unipro-tech/renovate-config//groups/react.json",
     "github>unipro-tech/renovate-config//groups/pydantic.json"
   ],
   "labels": [
-    "kind/dependency-update"
+    "kind/dependics"
   ],
-  "prConcurrentLimit": 5,
-  "dockerfile": {
-    "fileMatch": [
-      "(^|/)Dockerfile-[^/]*$"
-    ]
-  },
+  "prConcurrentLimit": 10,
   "minimumReleaseAge": "1 day",
-  "internalChecksFilter": "strict"
+  "internalChecksFilter": "strict",
+  "lockFileMaintenance": {
+    "enabled": false
+  }
 }

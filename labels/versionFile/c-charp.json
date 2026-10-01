@@ -1,11 +1,11 @@
 {
   "packageRules": [
     {
-      "matchUpdateTypes": [
-        "minor"
+      "matchCategories": [
+        "nuget"
       ],
       "addLabels": [
-        "deps/minor"
+        "renovate/nuget"
       ]
     }
   ]

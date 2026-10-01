@@ -1,11 +1,11 @@
 {
   "packageRules": [
     {
-      "matchUpdateTypes": [
-        "minor"
+      "matchCategories": [
+        "docker"
       ],
       "addLabels": [
-        "deps/minor"
+        "renovate/docker"
       ]
     }
   ]

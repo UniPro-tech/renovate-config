@@ -2,11 +2,10 @@
   "packageRules": [
     {
       "matchUpdateTypes": [
-        "patch",
-        "pin"
+        "patch"
       ],
       "addLabels": [
-        "type/patch"
+        "deps/patch"
       ]
     }
   ]

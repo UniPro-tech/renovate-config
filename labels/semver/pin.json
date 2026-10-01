@@ -2,10 +2,11 @@
   "packageRules": [
     {
       "matchUpdateTypes": [
-        "pinDigest"
+        "pinDigest",
+        "pin"
       ],
       "addLabels": [
-        "type/digest"
+        "deps/pin"
       ]
     }
   ]
