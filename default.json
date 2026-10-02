@@ -35,5 +35,8 @@
   "internalChecksFilter": "strict",
   "lockFileMaintenance": {
     "enabled": false
+  },
+  "toolSettings": {
+    "nodeMaxMemory": 2048
   }
 }
