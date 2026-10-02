@@ -16,4 +16,4 @@ jobs:
           node-version: "24"
       - name: Validate renovate config
         run: |
-          npx --yes --package renovate -- renovate-config-validator default.json
+          npx --yes --package renovate@44.130 -- renovate-config-validator default.json
