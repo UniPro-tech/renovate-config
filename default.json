@@ -3,7 +3,6 @@
   "extends": [
     "config:recommended",
     ":enableVulnerabilityAlertsWithLabel(deps/security)",
-    ":semanticCommitTypeAll(deps)",
     ":timezone(Asia/Tokyo)",
     "helpers:pinGitHubActionDigests",
     ":automergeMinor",
