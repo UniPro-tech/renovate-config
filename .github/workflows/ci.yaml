@@ -16,8 +16,4 @@ jobs:
           node-version: "24"
       - name: Validate renovate config
         run: |
-          for file in *.json
-          do
-            echo "[CI] Validate: $file"
-            RENOVATE_CONFIG_FILE=${file} npx --yes --package renovate renovate-config-validator
-          done
+          npx --yes --package renovate -- renovate-config-validator default.json

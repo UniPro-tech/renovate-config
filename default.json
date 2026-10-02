@@ -28,7 +28,7 @@
     "github>unipro-tech/renovate-config//groups/pydantic.json"
   ],
   "labels": [
-    "kind/dependics"
+    "kind/dependencies"
   ],
   "prConcurrentLimit": 10,
   "minimumReleaseAge": "1 day",
